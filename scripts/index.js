@@ -18,7 +18,7 @@ window.addEventListener('scroll', function () {
 document.addEventListener('visibilitychange',
   function () {
       if (document.visibilityState === "visible") {
-          document.title = "Portfolio | Claudia Palma";
+          document.title = "Portfolio | Flávio Silva";
           $("#favicon").attr("href", "js/...");
       } else {
           document.title = "Volte aqui!";
@@ -62,7 +62,7 @@ document.addEventListener('visibilitychange',
 // cria um array de objetos, com as frases a serem escritas,
 // se vai durar sempre, a velocidade da escrita, a velocidade de volta da escrita e o atraso para escrever.
 var typed = new Typed(".escrever-texto", {
-  strings: ["avalio para porte de armas", "realizo seleção e treinamento."],
+  strings: ["desenvolvendo em Front End", "olhando o Backend", "sonhando com o Full Stack"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
